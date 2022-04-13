@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("https://www.nationalparks.org/sites/default/files/cumberlandisland_sunrise-horse_gabriel-friedrich_ste.jpg");
+    font-family: 'Shadows Into Light', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    padding: 20px 70px;
+    color: #fff;
+}
+
+.current-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.date-container .time{
+    font-size: 70px;
+    font-weight: 100;
+}
