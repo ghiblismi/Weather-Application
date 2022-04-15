@@ -40,6 +40,10 @@ body {
     margin-left: 20px;
 }
 
+.date-container .date{
+    font-size: 30px;
+}
+
 .place-container{
     text-align: end;
 }
@@ -152,6 +156,10 @@ body {
     .date-container #am-pm{
         font-size: 20px;
     }
+    
+    .date-container .date{
+        font-size: 30px;
+    }
 
     .date-container .date{
         font-size: 20px;
@@ -172,6 +180,15 @@ body {
     
     .current-info .others .weather-item{
         font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px){
+    .future-forecast{
+        justify-content: start;
+        align-items: none;
+        overflow-y: scroll;
     }
 }
 
